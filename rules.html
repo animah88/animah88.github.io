@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chess rules</title>
+<style>
+    ul {
+        font-family: Helvetica;
+        font-size: 18px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 30px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    /* Change the link color to #111 (black) on hover */
+    
+    li a:hover {
+        background-color: #111;
+    }
+    
+    .active {
+        background-color: #4CAF50;
+        /*#0088dd*/
+    }
+    
+    .info {
+        background: white;
+        margin: auto;
+        width: 65%;
+        border: 0;
+        padding: 0;
+        /*height: 100vh;*/
+        min-height: 100vh;
+    }
+    
+    .content {
+        font-family: Helvetica;
+        font-size: 22px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /*justify-content: space-between;*/
+        /*justify-content: center;*/
+        /*display: -webkit-flex; /* Safari */
+        /*-webkit-justify-content: space-between; /* Safari 6.1+ */
+        /*display: flex;*/
+        /*justify-content: space-around;*/
+        margin: auto;
+        width: 90%;
+    }
+    
+    p {
+        /* justify-content: space-between;*/
+        text-align: justify;
+    }
+    
+    body {
+        /*background-size: inherit;*/
+        /*background-image: url("https://lichess1.org/assets/images/background/landscape.jpg");*/
+        background-image: url("http://0.s3.envato.com/files/35494670/Light%20And%20Dark%20Grey%20Marble%20001.jpg");
+        /*background: linear-gradient(black, white);*/
+        padding: 0;
+        margin: 0;
+    }
+    
+    img {
+        float: right;
+        /*padding: 15px;*/
+        margin: 30px;
+        /*align-self: middle;*/
+        /*align:middle;*/
+    }
+    </style>
+</head>
+
+<body>
+    <div class="info">
+        <ul>
+            <!--  <li><a href="index.html">Головна</a></li> -->
+            <li><a href="index.html">Головна</a></li>
+            <li><a class="active" href="rules.html">Правила гри</a></li>
+            <li><a href="top.html">Топ шахістів</a></li>
+            <li style="float:right"><a class="active" href="login.html">Вхід</a></li>
+        </ul>
+        <div class="content">
+            <h1>Правила шахів</h1>
+            <h2>Загальні положення</h2>
+            <p>Гра у шахи ведеться двома гравцями за дошкою, що має 64 клітини чорного та білого кольору, фігурами білого та чорного кольорів. Шахова дошка зазвичай називається шахівниця.
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/ChessSet.jpg/500px-ChessSet.jpg" style="width:auto;height:auto;border:0;" align="middle">
+            Шахівницю розміщують таким чином, що її перша горизонталь перебуває біля гравця, що грає білими. Кожен з гравців має 16 шахових фігур: вісім пішаків, дві тури, двох коней, двох слонів, ферзя та короля. Гравці роблять ходи по черзі, один за одним. Під час кожного ходу гравець може перемістити лише одну фігуру. Винятком є рокіровка — спільний хід турою та королем. Гру розпочинає той з гравців, що грає фігурами білого кольору. При переміщенні своєї фігури на клітину зайняту фігурою суперника, фігура суперника знімається з дошки. Такий хід називають взяття.</p>
+            <h2>Правила пересування фігур</h2>
+            <p><b>Пішак</b> — пересувається лише вперед по вертикалі. Перший хід пішака — білого з другої, а чорного з сьомої горизонталі — можна зробити одразу на дві клітини, перестрибнувши через третю або шосту горизонталь. З усіх інших горизонталей пішак може пересуватися лише на одну клітину вперед. Крім цього пішак може взяти будь-яку фігуру супротивника, що перебуває попереду нього на відстані однієї клітини по діагоналі. Якщо білий пішак досягнув восьмої горизонталі, або чорний — першої то він може перетворитися на будь-яку фігуру (окрім короля) того ж кольору що й пішак.</p>
+            <p><b>Тура</b> (вежа, колісниця) — пересувається на будь-яку кількість клітин по вертикалі, або горизонталі</p>
+            <p><b>Кінь</b> — єдина фігура у грі, яка може перестрибувати через інші фігури — свої та суперника. Хід конем схожий на літеру «Г». Кінь пересувається на одну клітинку по вертикалі та дві по горизонталі, або навпаки — на дві по вертикалі, та одну по горизонталі у будь-якому напрямку.</p>
+            <p><b>Слон</b> (офіцер, єпископ)— пересувається на будь-яку кількість клітин по діагоналі.</p>
+            <p><b>Король</b> — ходить на одну клітину по вертикалі, горизонталі або діагоналі.</p>
+            <p><b>Ферзь</b> (Королева) — пересувається на будь-яку кількість клітин по вертикалі, горизонталі або діагоналі.</p>
+        </div>
+    </div>
+</body>
+
+</html>
