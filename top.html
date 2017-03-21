@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <LINK  rel="stylesheet" type="text/css" href="style.css"> -->
+    <title>Chess</title>
+<style>
+    ul {
+        font-family: Helvetica;
+        font-size: 18px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 30px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    /* Change the link color to #111 (black) on hover */
+    
+    li a:hover {
+        background-color: #111;
+    }
+    
+    .active {
+        background-color: #4CAF50;
+        /*#0088dd*/
+    }
+    
+    .info {
+        background: white;
+        margin: auto;
+        width: 65%;
+        /*height: auto;*/
+        border: 0;
+        padding: 0;
+        height: 100vh;
+    }
+    
+    .content {
+        font-family: Helvetica;
+        font-size: 22px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /*justify-content: space-between;*/
+        /*justify-content: center;*/
+        /*display: -webkit-flex; /* Safari */
+        /*-webkit-justify-content: space-between; /* Safari 6.1+ */
+        /*display: flex;*/
+        /*justify-content: space-around;*/
+        margin: auto;
+        width: 90%;
+    }
+    
+    body {
+        /*background-size: inherit;*/
+        /*background-image: url("https://lichess1.org/assets/images/background/landscape.jpg");*/
+        background-image: url("http://0.s3.envato.com/files/35494670/Light%20And%20Dark%20Grey%20Marble%20001.jpg");
+        /*background: linear-gradient(black, white);*/
+        padding: 0;
+        margin: 0;
+    }
+    
+    table {
+        width: 65%;
+        margin: auto;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+    /*tr:hover {background-color: #f5f5f5}*/
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2
+    }
+    </style>
+</head>
+
+<body>
+    <div class="info">
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="rules.html">Правила гри</a></li>
+            <li><a class="active" href="top.html">Топ шахістів</a></li>
+            <li style="float:right"><a class="active" href="login.html">Вхід</a></li>
+        </ul>
+        <div class="content">
+            <h2>Найкращі 10 шахістів України станом на березень 2017 року</h2>
+            <table>
+                <tr>
+                    <th>Місце</th>
+                    <th>Ім'я,Прізвище</th>
+                    <th>Рейтинг</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Павло Ельянов</td>
+                    <td>2751</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Василь Іванчук</td>
+                    <td>2732</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Руслан Пономарьов</td>
+                    <td>2709</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Юрій Криворучко</td>
+                    <td>2708</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Антон Коробов</td>
+                    <td>2694</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Олександр Арещенко</td>
+                    <td>2684</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Олександр Моїсеєнко</td>
+                    <td>2664</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Захар Єфименко</td>
+                    <td>2650</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Андрій Волокітін</td>
+                    <td>2649</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Михайло Олексієнко</td>
+                    <td>2643</td>
+                </tr>
+                <p></p>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
